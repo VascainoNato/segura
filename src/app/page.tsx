@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex w-full h-screen flex-col">
+    <div className="flex w-full h-screen flex-col bg-[#F9FAFB]">
       <Header/>
       <div className="flex w-full flex-grow">
       <Content/>
